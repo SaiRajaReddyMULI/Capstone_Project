@@ -1,0 +1,1030 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one h3{
+    color: blue;
+    font-size: 2rem;
+}
+.one .ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0.8rem;
+    font-weight: bold;
+}
+.one .logo{
+    display: flex;
+    align-items: center;
+}
+.one  img{
+    height: 4rem;
+    width: auto;
+    padding: 0.8rem;
+}
+.firstimage img{
+    height: 20rem;
+    width: auto;
+}
+.firstimage{
+    align-self: center;
+    padding: 2rem;
+}
+
+.button{
+    border-radius: 30px;
+    height: 3rem;
+    width: 15vh;
+    border: none;
+    background: #Ffbd59;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 30px;
+    background: #Ffbd59;
+    margin: 0 3rem;
+}
+
+.search img{
+   height: 20px;
+  
+}
+.search input{
+    width: 90%;
+    border: none;
+    margin-left: 0.8rem;
+    outline: none;
+    font-size: 1.2rem;
+    background: #Ffbd59;
+}
+.one .card{
+    display: flex;
+    border: none;
+    height: 2rem;
+    background: #Ffbd59;
+    width: 30vh;
+    justify-content: center;
+    padding: 0.8rem;
+    padding-bottom: 0;
+    margin: 0 2rem;
+}
+.one h1{
+    color: #Ffbd59;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0.8rem;
+}
+.one h2{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.8rem;
+}
+.two .cards .card{
+    border-radius: 30px;
+    background: white;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content:center ;
+    
+}
+.two .cards  img{
+    height: 10rem;
+    width: 30vh;
+    padding: 1rem;
+    margin: 0.8rem;
+}
+.two .arrow img{
+    height: 3rem;
+    padding: 0;
+    margin: 0;
+}
+.two .cards{
+    background: #Ffbd59;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+
+}
+
+.two .card2{
+    background: #fbd29c;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.two .card2 img{
+    height: 8rem;
+    padding: 0.8rem;
+}
+.three .card{
+    background: #fbd29c;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.three .card img{
+   height: 15rem;
+}
+/* section-4-css */
+.four{
+    background: #fbd29c;
+    height: auto;
+    background-size: cover;
+    padding: 1rem;
+    
+}
+.four .one{
+    display: flex;
+}
+.four .card1{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 7rem;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    width: 3rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0%;
+}
+.four .card1 img{
+    height: 6rem;
+   
+}
+.four .card2{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 11rem;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    width: 11rem ;
+    display: flex;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+.four .card2 img{
+    height: 10rem;
+    width: 5rem;
+}
+.four .two{
+    display: flex;
+}
+.four .card3{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 11rem;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    width: 7rem ;
+    display: flex;
+    margin-top: -9%;
+    margin-right: 0.3rem;
+}
+.four .card3 img{
+    height: 11rem;
+}
+.four .card4{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 7rem;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    width: 3rem;
+    margin-left: 0%;
+}
+.four .card4 img{
+    height: 6rem;
+}
+.four .second{
+    margin: 1rem;
+    padding: 1rem;
+}
+.four .second h1{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0.8rem;
+}
+.four .second h1 span{
+    font-weight: bold;
+    color: orange;
+}
+.four .second p{
+    padding: 0.8rem;
+}
+.four .second .tick{
+    display: flex;
+    align-items: center;
+}
+.four .second .tick img{
+    height: 2rem;
+    margin: 0.8rem;
+}
+.four .second .button1{
+    height: 3rem;
+    width: auto;
+    margin: 0.6rem;
+    padding: 0.8rem;
+    border-radius: 26px;
+    border: none;
+    font-weight: bold;
+    color: rgb(255, 166, 0);
+    background: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.five{
+    padding: 2rem;
+}
+.five .cards .card{
+    background: #fbd29c;
+    height: 10rem;
+    display: flex;
+    width: 7rem;
+    border: none;
+    border-radius: 30px;
+    margin: 1rem;
+    justify-content: center;
+}
+.five .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.five .cards .card img{
+    height: 8rem;
+    padding: 1rem;
+}
+.five img{
+    height: 1.5rem;
+}
+.five h1 span{
+    color:orange;
+}
+.five p{
+    padding: 0.8rem;
+    margin: 0.6rem;
+    
+}
+.five ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+}
+.five .cards h5{
+  color: blue;
+  font-size: 1rem;
+}
+.five .cards h5 span{
+    color: green;
+    font-size: 0.8rem;
+}
+.six{
+    padding: 2rem;
+}
+.six .cards .card{
+    background: #fbd29c;
+    height: 10rem;
+    display: flex;
+    width: 7rem;
+    border: none;
+    border-radius: 30px;
+    margin: 1rem;
+    justify-content: center;
+}
+.six .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.six .cards .card img{
+    height: 8rem;
+    padding: 1rem;
+}
+.six .cards h5{
+    color: blue;
+    font-size: 1rem;
+  }
+.six .cards h5 span{
+      color: green;
+      font-size: 0.8rem;
+  }
+  .six img{
+    height: 1.5rem;
+}
+.six .card2{
+    background: #fbd29c;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.six .card2 img{
+    height: 8rem;
+    padding: 0.8rem;
+}
+.six .button{
+    height: autorem;
+    width: auto;
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 26px;
+    border: none;
+    font-weight: bold;
+    background: white;
+    /* justify-content: center; */
+}
+.seven {
+    background: #fbd29c;
+    
+    padding: 0.8rem;
+}
+.seven h1 span{
+    color: orange;
+}
+.seven p{
+    padding: 0.8rem;
+}
+.seven .cards .card{
+    background: white;
+    border: none;
+    border-radius: 10px;
+    height: 7rem;
+    width: auto;
+    margin: 1rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.seven .cards .card .text img{
+    height: 1.5rem;
+    padding: 0.6rem;
+    padding-top: 0;
+}
+.seven .cards .card .icon img{
+    height: 3rem;
+    padding: 0.8rem;
+}
+.eight{
+    padding-top: 1rem;
+    
+}
+.eight .card{
+    height: 15rem;
+    width: auto;
+    background: #fbd29c;
+    padding: 0.8rem;
+    margin: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.eight .card p{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem;
+}
+.eight .card img{
+    height: 11rem;
+    width: auto;
+    display: flex;
+    padding: 0.3rem;
+}
+.nine .images{
+   background: #fbd29c;
+   height: auto;
+   width: auto;
+   padding: 1rem;
+}
+
+ .nine .cards .card{
+    border-radius: 30px;
+    background: white;
+    height: 11rem;
+    width: auto;
+    padding: 1rem;
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content:center ;
+    
+}
+.nine .cards  .card img{
+    height: 10rem;
+    width: auto;
+}
+.nine .arrow img{
+    height: 2rem;
+    padding: 0;
+    width: 5rem;
+    margin: 0;
+}
+.nine .map img{
+    height: 20rem;
+    width: 16rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.ten .logo{
+    display: flex;
+    align-items: center;
+}
+.ten  img{
+    height: 4rem;
+    width: auto;
+    padding: 0.8rem;
+}
+.ten  h3{
+    color: blue;
+    font-size: 2rem;
+}
+.ten p{
+    padding: 0.8rem;
+    margin: 0.8rem;
+    font-weight: bold;
+}
+.ten .search{
+    height: 2.3rem;
+    width: auto;
+    display: flex;
+    padding: 0.8rem;
+    margin: 2rem;
+    align-items: center;
+}
+.ten .search img{
+    height: 2rem;
+    display: flex;
+}
+.ten .details{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 0.8rem;
+    margin: 0.8rem;
+}
+.ten .details ul{
+    list-style: none;
+    padding: 0.8rem;
+}
+.ten .details ul li{
+    padding: 0.3rem;
+}
+.ten .bg{
+    background: #fbd29c;
+    height: 6rem;
+    width: auto;
+    margin-top: 3rem;
+}
+.eleven .search{
+    height: 2.3rem;
+    width: auto;
+    display: flex;
+    padding: 0.8rem;
+    margin: 2rem;
+    align-items: center;
+}
+.eleven .search img{
+    height: 2rem;
+    display: flex;
+}
+.eleven .logo{
+    display: flex;
+    align-items: center;
+}
+.eleven  img{
+    height: 4rem;
+    width: auto;
+    padding: 0.8rem;
+}
+.eleven  h3{
+    color: blue;
+    font-size: 2rem;
+}
+.eleven .list ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.eleven .list ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eleven .list ul li span{
+    color: orange;
+}
+.eleven .cards .card{
+    background: #fbd29c;
+    height: 10rem;
+    display: flex;
+    width: 7rem;
+    border: none;
+    border-radius: 30px;
+    margin: 1rem;
+    justify-content: center;
+}
+.eleven .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.eleven .cards .card img{
+    height: 8rem;
+    padding: 1rem;
+}
+.eleven .sofa{
+    display: flex;
+    justify-content: center;
+    margin: 0.8rem;
+}
+.eleven .sofa img{
+    padding: 1rem;
+    margin: 0.8rem;
+    height: 16rem;
+    width: auto;
+}
+.eleven .text{
+    padding: 0.8rem;
+}
+.eleven .text p{
+    padding: 1rem;
+} 
+.eleven .text h5{
+    text-decoration: line-through;
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+.eleven .text h4{
+    font-size: 1.2rem;
+    color: blue;
+    text-decoration: none;
+    padding: 0.8rem
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+}
+.flex2 img{
+   height: 2rem;
+   padding: 0%;
+}
+.colors img{
+    height: 5rem;
+    width: auto;
+    padding: 0.8rem;
+}
+/* section-12 css */
+.twelve .search{
+    height: 2.3rem;
+    width: auto;
+    display: flex;
+    padding: 0.8rem;
+    margin: 2rem;
+    align-items: center;
+}
+.twelve .search img{
+    height: 2rem;
+    display: flex;
+}
+.twelve .logo{
+    display: flex;
+    align-items: center;
+}
+.twelve  img{
+    height: 4rem;
+    width: auto;
+    padding: 0.8rem;
+}
+.twelve  h3{
+    color: blue;
+    font-size: 2rem;
+}
+.twelve .list ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.twelve .list ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.twelve .list ul li span{
+    color: orange;
+}
+.twelve .cards .card{
+    background: #fbd29c;
+    height: 10rem;
+    display: flex;
+    width: 7rem;
+    border: none;
+    border-radius: 30px;
+    margin: 1rem;
+    justify-content: center;
+}
+.twelve .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.twelve .cards .card img{
+    height: 8rem;
+    padding: 1rem;
+}
+.twelve .sofa{
+    display: flex;
+    justify-content: center;
+    margin: 0.8rem;
+}
+.twelve .sofa img{
+    padding: 1rem;
+    margin: 0.8rem;
+    height: 16rem;
+    width: auto;
+}
+.twelve{
+    padding: 1rem;
+}
+.twelve .text p span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.twelve .text p {
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+/* section-13 css */
+.thirteen .search{
+    height: 2.3rem;
+    width: auto;
+    display: flex;
+    padding: 0.8rem;
+    margin: 2rem;
+    align-items: center;
+}
+.thirteen .search img{
+    height: 2rem;
+    display: flex;
+}
+.thirteen .logo{
+    display: flex;
+    align-items: center;
+}
+.thirteen  img{
+    height: 4rem;
+    width: auto;
+    padding: 0.8rem;
+}
+.thirteen  h3{
+    color: blue;
+    font-size: 2rem;
+}
+.thirteen .list ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.thirteen .list ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.thirteen .list ul li span{
+    color: orange;
+}
+.thirteen .cards .card{
+    background: #fbd29c;
+    height: 10rem;
+    display: flex;
+    width: 7rem;
+    border: none;
+    border-radius: 30px;
+    margin: 1rem;
+    justify-content: center;
+}
+.thirteen .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.thirteen .cards .card img{
+    height: 8rem;
+    padding: 1rem;
+}
+.thirteen .sofa{
+    display: flex;
+    justify-content: center;
+    margin: 0.8rem;
+}
+.thirteen .sofa img{
+    padding: 1rem;
+    margin: 0.8rem;
+    height: 16rem;
+    width: auto;
+}
+.thirteen{
+    padding: 1rem;
+}
+.thirteen .text h5{
+   font-weight: bold;
+   font-size: 1rem;
+}
+.thirteen .text ul li{
+    padding: 0.8rem;
+    padding-left: 0;
+}
+.thirteen .text ul{
+    padding: 0.8rem;
+}
+
+/* section-14 css */
+
+.fourteen{
+    padding: 1rem;
+}
+.fourteen table, tr ,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.4rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.fourteen .table1{
+    margin-top: 0.8rem;
+    padding: 0.8rem;
+}
+.fourteen .table2{
+    margin-top: 0.8rem;
+    padding: 0.8rem;
+}
+
+/* section-15 css */
+
+.fifteen{
+  padding: 1rem;
+  
+}
+.fifteen .cards .card{
+    background: #fbd29c;
+    height: 10rem;
+    display: flex;
+    width: 7rem;
+    border: none;
+    border-radius: 30px;
+    margin: 1rem;
+    justify-content: center;
+}
+.fifteen .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-top: 2rem;
+}
+.fifteen .cards .card img{
+    height: 8rem;
+    padding: 1rem;
+}
+.fifteen .cards  p{
+   font-weight: bold;
+    padding: 1rem;
+}
+.fifteen .cards  .button{
+    font-weight: bold;
+     padding: 1rem;
+     height: 3rem;
+     width: auto;
+ }
+ /* section-17 css */
+.seventeen{
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+}
+.seventeen .percent img{
+    height: 10rem;
+    width: auto;
+    padding: 1rem;
+    margin: 1rem;
+}
+.seventeen .cards .card{
+    background: white;
+    border: 2px solid gray;
+    border-radius: 18px;
+    height: 7rem;
+    width: auto;
+    margin: 1.3rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.seventeen .cards .card .text img{
+    height: 1.5rem;
+    padding: 0.6rem;
+    padding-top: 0;
+}
+.seventeen .cards .card .icon img{
+    height: 3rem;
+    padding: 0.8rem;
+}
+.seventeen img{
+    height: 2.6rem;
+    padding: 1rem;
+}
+/* media queries */
+@media (min-width:700px){
+    .one ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0.8rem;
+        justify-content: space-around;
+        font-weight: bold;
+    }
+ .search {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .one .ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .one p{
+        font-size: 1.4rem;
+        padding: 2rem;
+    }
+    .one .div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2rem;
+       }
+
+    .one .firstimage {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: -20rem;
+    }
+    .two .cards h3{
+        padding: 2rem;
+    }
+    .two .cards .items{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+    }
+    .three{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .five .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .six .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .six .card2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 2rem;
+    }
+    .seven .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .eight{
+        padding: 1rem;
+    }
+    .eight .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nine .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ten .details{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .eleven .cards{ 
+        display: flex;
+    }
+    .eleven .text p{
+        font-size: 1.5rem;
+    }
+    .eleven .text img{
+        height: 5rem;
+    }
+    .eleven .text h6{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .eleven .text .colors img{
+      height: 6rem;
+    }
+    .twelve .cards{ 
+        display: flex;
+    }
+    .twelve .colors img{
+        height: 6rem;
+      }
+      .twelve .text p span{
+        font-size: 1.5rem;
+      }
+      .twelve .text p{
+        font-size: 1.5rem;
+      }
+      .thirteen .cards{
+        display: flex;
+      }
+      .thirteen .text h5{
+        font-size: 2rem;
+      }
+      .thirteen .text ul{
+        font-size: 1.5rem;
+      }
+      .fourteen h3{
+        font-size: 2rem;
+      }
+      .fourteen table, tr ,td{
+        font-size: 1rem;
+      }
+      .fourteen .tables{
+        display: flex;
+      }
+      .fifteen .cards{
+        display: flex;
+      }
+      .sixteen{
+        margin: 3rem 0;
+        padding: 1rem;
+    }
+    .seventeen .cards{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:1200px){
+    .two .cards .items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .five .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.five .ul{
+    display: flex;
+    align-items: center;
+}
+.nine .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+  
+}
