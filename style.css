@@ -512,7 +512,7 @@
 }
 .eleven .search{
     height: 2.3rem;
-    width: auto;
+    width: 60%;
     display: flex;
     padding: 0.8rem;
     margin: 2rem;
@@ -869,7 +869,7 @@
     height: 2.6rem;
     padding: 1rem;
 }
-/* media queries */
+/* media queries - for tablet and laptop modes*/
 @media (min-width:700px){
     .one ul{
         display: flex;
@@ -1010,6 +1010,31 @@
 }
 
 @media (min-width:1200px){
+    .one{
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* .one .firstimage{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 1rem;
+    } */
+    .one .items{
+        display: flex;
+    }
+    .one .firstimage img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 36rem;
+        padding: 2rem;
+        margin-top: -13rem;
+    }
     .two .cards .items{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1018,13 +1043,78 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.five .ul{
+.five .cards p{
     display: flex;
     align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.eight .cards{
+    display: flex;
 }
 .nine .cards{
+    /* display: grid;
+    align-items: center; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.eleven .cards{
+   display: flex;
+   flex-direction: column;
+}
+.eleven .items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.eleven .sofa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.eleven .text{
+   margin-top: 3rem;
+}
+.twelve .cards{
+    display: flex;
+    flex-direction: column;
+ }
+ .twelve .items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.twelve .sofa{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.twelve .search{
+    width: 60%;
+}
+.thirteen .cards{
+    display: flex;
+    flex-direction: column;
+ }
+ .thirteen .items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.thirteen .sofa{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.thirteen .search{
+    width: 60%;
+}
+.fourteen .tables{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+.seventeen .items{
+    display: flex;
 }
   
 }
