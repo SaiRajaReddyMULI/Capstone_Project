@@ -6,14 +6,13 @@
     color: blue;
     font-size: 2rem;
 }
-.one .ul {
+.one ul{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     list-style: none;
-    margin: 0.8rem;
-    font-weight: bold;
+    justify-content: space-around;
+    padding: 1rem;
 }
+
 .one .logo{
     display: flex;
     align-items: center;
@@ -834,6 +833,10 @@
      height: 3rem;
      width: auto;
  }
+ /* .sixteen tables ,tr,td{
+    display: block;
+ } */
+ 
  /* section-17 css */
 .seventeen{
     padding: 0.8rem;
@@ -871,6 +874,7 @@
 }
 /* media queries - for tablet and laptop modes*/
 @media (min-width:700px){
+    
     .one ul{
         display: flex;
         align-items: center;
@@ -879,10 +883,21 @@
         justify-content: space-around;
         font-weight: bold;
     }
+    .one .items{
+        display: flex;
+    }
+    .one .full{
+        display: flex;
+    }
+    .one .ul{
+        padding: 0.8rem;
+    }
  .search {
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding: 0.8rem;
+        margin: 1rem;
     }
     .one .ul{
         display: flex;
