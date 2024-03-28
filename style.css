@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.one{
+    margin: 1rem;
+}
 .one h3{
     color: blue;
     font-size: 2rem;
@@ -451,13 +454,16 @@
     width: 5rem;
     margin: 0;
 }
-.nine .map img{
-    height: 20rem;
-    width: 16rem;
-    padding: 2rem;
-    margin: 2rem 0;
+.nine .map{
     display: flex;
     justify-content: center;
+}
+.nine .map img{
+    height: 16rem;
+    width: auto;
+    margin: 1rem;
+   box-sizing: border-box;
+   display: block;
 }
 .ten .logo{
     display: flex;
@@ -836,7 +842,18 @@
  /* .sixteen tables ,tr,td{
     display: block;
  } */
- 
+ @media (max-width: 300px), (max-width: 700px) {
+    table {
+        display: none;
+    }
+}
+
+/* Show the table at 1200px */
+@media (min-width: 1200px) {
+    table {
+        display: table;
+    }
+}
  /* section-17 css */
 .seventeen{
     padding: 0.8rem;
@@ -961,6 +978,17 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .nine .map{
+        display: flex;
+        justify-content: center;
+    }
+    .nine .map img{
+        height: 36rem;
+        width: auto;
+        margin: 1rem;
+       box-sizing: border-box;
+       display: block;
+    }
     .ten .details{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1028,6 +1056,7 @@
     .one{
         padding: 1rem;
         margin-top: 2rem;
+        margin-bottom: 0%;
     }
     .items{
         display: grid;
@@ -1055,14 +1084,21 @@
         grid-template-columns: repeat(3, 1fr);
   }
   .five .cards{
+   margin-left: 2rem;
+  }
+  .five .cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    
 }
 .five .cards p{
     display: flex;
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
+}
+.six .cards{
+  margin-left: 2rem;
 }
 .eight .cards{
     display: flex;
@@ -1072,6 +1108,17 @@
     align-items: center; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.nine .map{
+    display: flex;
+    justify-content: center;
+}
+.nine .map img{
+    height: 40rem;
+    width: 70rem;
+    margin: 2rem;
+   box-sizing: border-box;
+   display: block;
 }
 .eleven .cards{
    display: flex;
